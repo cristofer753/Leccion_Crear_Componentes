@@ -1,0 +1,7 @@
+{
+  "name": "componentesLECC",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
