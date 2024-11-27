@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title color="primary">Avatar</ion-title>
+    <ion-buttons slot="end">
+      <ion-button color="danger" (click)="goBack()">Regresar</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-button expand="block" (click)="toggleAvatar()">Mostrar Avatar</ion-button>
+
+  <div class="ion-margin-top ion-text-center" *ngIf="showAvatar">
+    <ion-avatar>
+      <img alt="Silhouette of a person's head" src="https://pngimg.com/d/avatar_PNG9.png" />
+    </ion-avatar>
+  </div>
+</ion-content>
+
+
+

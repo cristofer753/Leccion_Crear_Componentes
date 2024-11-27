@@ -35,3 +35,26 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import "@ionic/angular/css/palettes/dark.system.css";
+
+ion-avatar {
+  margin: 20px auto;
+  width: 100px;
+  height: 100px;
+}
+
+ion-button {
+  --background: #3880ff;
+  --background-hover: #3171e0;
+  --background-activated: #4c8dff;
+  --color: white;
+}
+ion-button {
+  --background: #3880ff;
+  --color: white;
+}
+ion-avatar {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
